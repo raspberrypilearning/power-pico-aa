@@ -1,59 +1,37 @@
-## Introduction
+## Power a Raspberry Pi Pico with AA batteries
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+- You will need a two or three cell battery pack, two jumper leads with sockets, heatshrink tubing.
 
-### What you will make
+![battery pack, two jumper leads, heatshrink tubing](images/you_need.jpg)
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+- Tin the ends of the leads from the battery pack
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+![ends of leads from battery pack being tinned](images/tin_battery_leads.gif)
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+- Cut and strip two jumper leads, so that you have bare copper on one end and a socket on the other.
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+![leads being cut and stripped](images/strip_jumpers.gif)
 
-+ A computer or tablet capable of running Scratch 3
+- Tin the ends of both jumper leads
 
-### Software
+![lead ends being tinned](images/tin_jumpers.gif)
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+- Place a length of heatshrink over the leads, sufficient to cover the join.
 
-### Downloads
+![heatshrink being placed over leads](images/add_heatshrink.gif)
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+- Position the battery leads with the jumper leads and heat them to solder them together/
 
---- /collapse ---
+![battery lead and jumper lead being soldered](images/bond_jumpers.gif)
 
---- collapse ---
----
-title: What you will learn
----
+- Slide the heatshrink over the join.
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+![heatshrink being pushed over soldered join](images/place_heatshrink.gif)
 
---- /collapse ---
+- Use the thick edge of the soldering iron to shrink the heatshrink tubing.
 
---- collapse ---
----
-title: Additional information for educators
----
+![soldering iron used to shrink the heatshrink tubing](images/shrink_heatshrink.gif)
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
+- Test the battery pack on your Pico, using the `VSYS` pin and a `GND` pin.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+![pico being powered by battery pack and LED lighting](images/test_battery.gif)
